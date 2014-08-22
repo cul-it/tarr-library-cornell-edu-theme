@@ -7001,6 +7001,8 @@ img {
 
 .front .main-text {
   font-size: 28px; }
+.front h1 {
+  display: none; }
 
 .brand {
   position: relative;
