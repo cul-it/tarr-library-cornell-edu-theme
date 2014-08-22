@@ -6999,7 +6999,7 @@ img {
   .main-text p {
     font-size: 22px; }
 
-.front .main-text {
+.front .main-text p {
   font-size: 28px; }
 .front h1 {
   display: none; }

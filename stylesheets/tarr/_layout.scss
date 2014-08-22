@@ -26,7 +26,9 @@
 }
 .front {
 	.main-text {
-		font-size: 28px;
+		p {
+			font-size: 28px;
+		}
 	}
 	h1 {
 		display: none;
