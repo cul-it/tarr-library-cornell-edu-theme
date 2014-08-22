@@ -11,7 +11,9 @@
   <title><?php print $head_title; ?></title>
 
   <?php print $styles; ?>
+
   <link href="/sites/all/themes/tarr/stylesheets/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/sites/all/themes/tarr/images/favicon.png">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
 
