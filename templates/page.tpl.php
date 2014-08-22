@@ -60,7 +60,7 @@
         <?php if(drupal_is_front_page()) {
           unset($page['content']['system_main']['default_message']);
         }?>
-        <?php if ($title): ?>
+        <?php if ($title) && !(drupal_is_front_page()): ?>
           <h1><?php print $title; ?></h1>
         <?php endif; ?>
         <?php print render($page['content']); ?>
