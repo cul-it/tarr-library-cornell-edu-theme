@@ -61,15 +61,19 @@ img {
 .img-left {
 	text-align: center;
 	margin: 10px 20px 10px 0;
+	max-width: 320px;
 }
 .img-right {
 	text-align: center;
 	margin: 10px 0 20px 10px;
+	max-width: 320px;
 }
 .caption {
 	font-size: 16px;
 	margin-top: .5em;
 	color: $light-gray;
+	line-height: 1.4em;
+	padding: 0 .75em;
 }
 
 // MEDIA QUERIES
