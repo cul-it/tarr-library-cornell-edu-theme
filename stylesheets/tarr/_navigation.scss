@@ -68,6 +68,15 @@ footer {
 		border-left: 1px solid $light-gray; 
 	}
 	.nav {
+		li {
+			font-size: 14px;
+			a {
+				color: $dark-gray;
+			}
+			a:hover {
+				background: inherit;
+			}
+		}
 		li:first-child {
 			a {
 				padding-left: 0;
