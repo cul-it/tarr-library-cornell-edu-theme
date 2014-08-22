@@ -7056,11 +7056,11 @@ footer {
     padding: 30px; }
 
   .front .main-text {
-    background: rgba(255, 255, 255, 0.3);
-    padding: 30px; }
+    background: rgba(255, 255, 255, 0.3); }
 
   .main-text {
-    background: rgba(255, 255, 255, 0.9); } }
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px; } }
 /* Medium devices (desktops, 992px and up) */
 .navbar-brand {
   font-family: "Cinzel";
