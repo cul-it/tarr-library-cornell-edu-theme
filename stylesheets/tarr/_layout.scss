@@ -1,0 +1,91 @@
+// Home page content
+// -------------------------
+
+.jumbotron {
+	background: $cornell-gray;
+	color: white;
+	padding: 30px 15px;
+	h1 {
+		font-size: 40px;
+		color: black;
+	}
+	.btn-tarr {
+		font-size: 18px;
+	}
+}
+.main-text {
+	@include make-sm-column(10);
+	@include make-sm-column-offset(1);
+	margin-top: 2em;
+	.btn-tarr {
+		margin-right: 5px;
+	}
+	p {
+		font-size: 22px;
+	}
+}
+.front {
+	.main-text {
+		font-size: 28px;
+	}
+}
+
+// BRANDING and NAV
+// -------------------------
+.brand {
+	@include make-md-column(6);
+}
+.navigation {
+	@include make-md-column(6);
+}
+
+// FOOTER
+// -------------------------
+footer {
+	padding-bottom: 2em;
+	p { font-size: 16px; }
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.jumbotron {
+		background: url("../images/2891668.jpg") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		min-height: 600px;
+		color: $dark-gray;
+		padding: 30px;
+	}
+	.front {
+		.main-text {
+			background: rgba(255, 255, 255, 0.3);
+			padding: 30px;
+		}
+	}
+	.main-text {
+		background: rgba(255, 255, 255, 0.9);
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+
+}
