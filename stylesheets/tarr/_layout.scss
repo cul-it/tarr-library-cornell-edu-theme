@@ -49,13 +49,11 @@
 footer {
 	padding-bottom: 2em;
 	color: $dark-gray;
-	p { font-size: 16px; }
+	p { font-size: 14px; }
 }
-.footer-primary {
+.footer-primary, .footer-secondary {
 	@include make-sm-column(6);
-}
-.footer-secondary {
-	@include make-sm-column(6);
+	margin-bottom: 1em;
 }
 
 // Skip to content link

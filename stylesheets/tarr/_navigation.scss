@@ -64,8 +64,6 @@
 
 footer {
 	.nav > li > a {
-		padding: 0 10px;
-		border-left: 1px solid $light-gray; 
 	}
 	.nav {
 		li {
@@ -75,12 +73,6 @@ footer {
 			}
 			a:hover {
 				background: inherit;
-			}
-		}
-		li:first-child {
-			a {
-				padding-left: 0;
-				border-left: 0;
 			}
 		}
 	}
@@ -119,9 +111,19 @@ footer {
 		padding-left: 0;
 	}
 	footer {
+		.nav > li > a {
+			padding: 0 10px;
+			border-left: 1px solid $light-gray; 
+		}
 		.nav {
 			li {
 				float: left;
+			}
+			li:first-child {
+				a {
+					padding-left: 0;
+					border-left: 0;
+				}
 			}
 		}
 	}
