@@ -7148,7 +7148,7 @@ footer .nav {
     footer .nav li a:hover {
       background: inherit;
       color: black;
-      text-decoration: none; }
+      text-decoration: underline; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
