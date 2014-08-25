@@ -7137,16 +7137,18 @@ footer {
 
 footer .nav > li > a {
   padding: 0; }
-footer .nav li {
-  font-size: 14px;
-  margin-bottom: 0; }
-  footer .nav li a {
-    color: #666666;
-    padding: 5px 0; }
-  footer .nav li a:hover {
-    background: inherit;
-    color: black;
-    text-decoration: none; }
+footer .nav {
+  margin-bottom: 1em; }
+  footer .nav li {
+    font-size: 14px;
+    margin-bottom: 0; }
+    footer .nav li a {
+      color: #666666;
+      padding: 5px 0; }
+    footer .nav li a:hover {
+      background: inherit;
+      color: black;
+      text-decoration: none; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
