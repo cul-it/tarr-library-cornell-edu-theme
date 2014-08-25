@@ -7135,8 +7135,11 @@ footer {
   text-transform: uppercase;
   border-radius: 0; }
 
+footer .nav > li > a {
+  padding: 0; }
 footer .nav li {
-  font-size: 14px; }
+  font-size: 14px;
+  margin-bottom: 0; }
   footer .nav li a {
     color: #666666; }
   footer .nav li a:hover {

@@ -64,10 +64,12 @@
 
 footer {
 	.nav > li > a {
+		padding: 0;
 	}
 	.nav {
 		li {
 			font-size: 14px;
+			margin-bottom: 0;
 			a {
 				color: $charcoal-gray;
 			}
