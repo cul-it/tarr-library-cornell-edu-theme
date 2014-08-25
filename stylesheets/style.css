@@ -7041,6 +7041,27 @@ footer {
   footer p {
     font-size: 16px; }
 
+.footer-primary {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .footer-primary {
+      float: left;
+      width: 50%; } }
+
+.footer-secondary {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: right; }
+  @media (min-width: 768px) {
+    .footer-secondary {
+      float: left;
+      width: 50%; } }
+
 #skiptocontent a {
   padding: 6px;
   position: absolute;

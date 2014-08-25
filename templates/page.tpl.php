@@ -1,5 +1,4 @@
 <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
-
 <div class="cornell-brand">
   <div class="container hidden-xs">
     <div class="row">
@@ -23,7 +22,6 @@
   </div>
   <a class="visible-xs" href="http://www.library.cornell.edu"><img src="/sites/all/themes/tarr/images/layout/cul-mobile.png" alt="Cornell University Library"></a>
 </div>
-
 <div class="navbar" role="navigation">
   <div class="container">
     <div class="row">
@@ -44,7 +42,6 @@
     </div>
   </div>
 </div>
-
 <div class="jumbotron">
   <div class="container">
     <div class="row">
@@ -68,11 +65,17 @@
     </div>
   </div>
 </div>
-
-<div class="container">
-  <footer>
-    <?php print render($page['footer']); ?>
-  </footer>
-</div> <!-- /container -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="footer-primary">
+        <?php print render($page['footer_primary']); ?>
+      </div>
+      <div class="footer-secondary">
+        <?php print render($page['footer_secondary']); ?>
+      </div>
+    </div>
+  </div> <!-- /container -->
+</footer>
 
 <?php print render($page['bottom']); ?>

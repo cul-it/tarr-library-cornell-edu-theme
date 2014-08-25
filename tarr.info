@@ -4,11 +4,12 @@ core = 7.x
 base theme = bootstrap
 
 ; Global regions
-regions[navigation]     = 'Navigation'
-regions[highlighted]    = 'Highlighted'
-regions[help]           = 'Help'
-regions[content]        = 'Content'
-regions[footer]   		= 'Footer'
+regions[navigation]     	= 'Navigation'
+regions[highlighted]    	= 'Highlighted'
+regions[help]           	= 'Help'
+regions[content]        	= 'Content'
+regions[footer_primary] 	= 'Footer primary'
+regions[footer_secondary] 	= 'Footer secondary'
 
 ; Stylesheets
 ; style.css is referenced in html.tpl.php because when it's loaded via @import statement in Drupal, respond.js doesn't work so IE8 users only see the mobile layout
