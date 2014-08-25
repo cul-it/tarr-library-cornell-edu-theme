@@ -7055,8 +7055,7 @@ footer {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px;
-  text-align: right; }
+  padding-right: 15px; }
   @media (min-width: 768px) {
     .footer-secondary {
       float: left;
@@ -7094,7 +7093,10 @@ footer {
   .main-text {
     background: rgba(255, 255, 255, 0.9);
     padding: 30px;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+
+  .footer-secondary {
+    text-align: right; } }
 /* Medium devices (desktops, 992px and up) */
 .navbar-brand {
   font-family: "Cinzel";

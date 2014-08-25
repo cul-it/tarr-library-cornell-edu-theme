@@ -56,7 +56,6 @@ footer {
 }
 .footer-secondary {
 	@include make-sm-column(6);
-	text-align: right;
 }
 
 // Skip to content link
@@ -114,6 +113,9 @@ footer {
 		background: rgba(255, 255, 255, 0.9);
 		padding: 30px;
 		margin-bottom: 50px;
+	}
+	.footer-secondary {
+		text-align: right;
 	}
 }
 
