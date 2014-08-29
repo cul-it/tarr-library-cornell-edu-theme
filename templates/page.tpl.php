@@ -21,7 +21,8 @@
     </div>
   </div>
   <a class="visible-xs" href="http://www.library.cornell.edu">
-    <?php print '<img src="'. $base_path . path_to_theme() . '/images/layout/cul-mobile.png /></a>' ?>
+    <?php print '<img src="'. $base_path . path_to_theme() . '/images/layout/cul-mobile.png />' ?>
+  </a>
 </div>
 <div class="navbar" role="navigation">
   <div class="container">
