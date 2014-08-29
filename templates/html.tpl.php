@@ -4,10 +4,11 @@
   <?php print $head; ?>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 
   <meta name="description" content="">
   <meta name="author" content="Cornell University Library">
+  <link rel="shortcut icon" href="/sites/all/themes/tarr/favicon.png">
   <title><?php print $head_title; ?></title>
 
   <?php print $styles; ?>
