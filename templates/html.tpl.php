@@ -8,7 +8,7 @@
 
   <meta name="description" content="">
   <meta name="author" content="Cornell University Library">
-  <link rel="shortcut icon" href="/sites/all/themes/tarr/favicon.png">
+  <link rel="shortcut icon" href="/sites/all/themes/tarr/favicon.ico">
   <title><?php print $head_title; ?></title>
 
   <?php print $styles; ?>
