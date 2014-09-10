@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6,
 }
 h1 {
 	margin: 0 0 1em;
+	color: white;
 }
 
 // Typography
@@ -107,6 +108,9 @@ img {
 	}
 	.caption {
 		color: $dark-gray;
+	}
+	h1 {
+		color: black;
 	}
 }
 

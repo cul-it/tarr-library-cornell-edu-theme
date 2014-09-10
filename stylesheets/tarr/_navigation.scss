@@ -71,16 +71,16 @@ footer {
 		li {
 			font-size: 14px;
 			margin-bottom: 0;
-			a {
-				color: $charcoal-gray;
-				padding: 5px 0;
-			}
-			a:hover {
-				background: inherit;
-				color: black;
-				text-decoration: underline;
-			}
 		}
+	}
+	a {
+		color: $charcoal-gray;
+		padding: 5px 0;
+	}
+	a:hover {
+		background: inherit;
+		color: black;
+		text-decoration: underline;
 	}
 }
 

@@ -6928,7 +6928,8 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Cinzel"; }
 
 h1 {
-  margin: 0 0 1em; }
+  margin: 0 0 1em;
+  color: white; }
 
 p, li {
   font-size: 22px;
@@ -6980,7 +6981,10 @@ img {
     color: black; }
 
   .caption {
-    color: #333333; } }
+    color: #333333; }
+
+  h1 {
+    color: black; } }
 /* Medium devices (desktops, 992px and up) */
 .jumbotron {
   background: #4d4e53;
@@ -7142,13 +7146,13 @@ footer .nav {
   footer .nav li {
     font-size: 14px;
     margin-bottom: 0; }
-    footer .nav li a {
-      color: #666666;
-      padding: 5px 0; }
-    footer .nav li a:hover {
-      background: inherit;
-      color: black;
-      text-decoration: underline; }
+footer a {
+  color: #666666;
+  padding: 5px 0; }
+footer a:hover {
+  background: inherit;
+  color: black;
+  text-decoration: underline; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
